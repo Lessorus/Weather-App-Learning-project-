@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Weather App</title>
+</head>
+<body>
+
+  <header class="api">
+    <div class="container">
+      <p></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="top-banner">
+      <div class="container">
+        <h1 class="heading">Simple Weather App</h1>
+        <form id="weather-form">
+          <label for="city-input">Название города</label>
+          <input type="text" id="city-input" name="city" placeholder="Найди свой город" required>
+          <button type="submit">SUBMIT</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <small>Made for ПМ.02 practice</small>
+    </div>
+  </footer>
+
+</body>
+</html>
